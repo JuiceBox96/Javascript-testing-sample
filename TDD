@@ -1,9 +1,0 @@
-The TDD has 3 phases:
-
-
-
-
-
-RED. First write a unit test in failure. The impossibility of compiling is a failure.
-GREEN. Write as soon as possible the production code sufficient to pass this unit test even if it means allowing the “worst” solutions. Of course if a clean and simple solution appears immediately, it must be realized but otherwise it is not serious the code will be improved incrementally during the refactoring phases. The aim here is to obtain as soon as possible the green bar of success of the unit tests.
-REFACTOR. This phase is often neglected but is essential because it eliminates possible code duplications but also makes it possible to make changes in architecture, factorization, presentation… This refactoring concerns both the production code and the test code and must not modify the external behavior of the program, which is materialized by a test execution bar that remains green.
