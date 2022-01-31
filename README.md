@@ -10,8 +10,6 @@ Documentation is any content separate from implementation code that explains how
 
 Documentation can come in many forms, including plain text, diagrams…and tests! Tests as documentation provide what many other forms cannot: both human-readable text to describe the application and machine-executable code to confirm the app works as described.
 
-
-
 Regression
 The new “clear order” button feature has been implemented to satisfy the new test.
 
