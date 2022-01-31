@@ -16,3 +16,17 @@ The new “clear order” button feature has been implemented to satisfy the new
 When adding a new feature to your product, it’s possible that something will break. If that break occurs within a feature developed earlier, it is called regression. When functionality previously developed and tested stops working, you may say the functionality regressed.
 
 Running an automated test suite is fast and repeatable, which means you can run tests after every change to confirm that old features still work. If they have regressed, the test output should notify you.
+
+
+
+The TDD has 3 phases:
+
+
+
+
+
+RED. First write a unit test in failure. The impossibility of compiling is a failure.
+
+GREEN. Write as soon as possible the production code sufficient to pass this unit test even if it means allowing the “worst” solutions. Of course if a clean and simple solution appears immediately, it must be realized but otherwise it is not serious the code will be improved incrementally during the refactoring phases. The aim here is to obtain as soon as possible the green bar of success of the unit tests.
+
+REFACTOR. This phase is often neglected but is essential because it eliminates possible code duplications but also makes it possible to make changes in architecture, factorization, presentation… This refactoring concerns both the production code and the test code and must not modify the external behavior of the program, which is materialized by a test execution bar that remains green.
